@@ -47,7 +47,7 @@ describe('Example', () => {
     signer = bre.ethers.provider.getSigner(signerAddress)
     console.log(`  signer: ${signerAddress}`)
   })
-
+//commit test
   before('deploy example contract', async () => {
     console.log('\nDeploying example contract...')
     const factory = await bre.ethers.getContractFactory('ExampleContract', signer)
